@@ -12,7 +12,4 @@
 - (void)didFailToReceiveAdWithError:(NSError *)error;
 - (void)bannerViewDidRecordClick;
 - (void)bannerViewDidRecordImpression;
-- (void)bannerViewWillPresentScreen;
-- (void)bannerViewWillDismissScreen;
-- (void)bannerViewDidDismissScreen;
 @end
