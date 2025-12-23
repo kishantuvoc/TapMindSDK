@@ -20,9 +20,10 @@ Pod::Spec.new do |s|
   }
 
   s.source_files     = 'TapMindSDK/**/*.{h,m}'
-  s.public_header_files = 'TapMindSDK/Public/**/*.h'
+  #s.public_header_files = 'TapMindSDK/Public/**/*.h'
   #s.exclude_files    = 'TapMindSDK/Exclude'
-
+s.static_framework = true
 # 👉 Dependencies
-  s.dependency 'Google-Mobile-Ads-SDK', '~> 12.14'
+  s.dependency 'Google-Mobile-Ads-SDK'
+  s.dependency 'GoogleUserMessagingPlatform'
 end

@@ -44,11 +44,11 @@
 
 /// Handles user tap on the view.
 - (void)infoViewTapped {
-  [[[UIAlertView alloc] initWithTitle:@"Sample SDK"
-                              message:@"This is a sample ad from the Sample SDK"
-                             delegate:nil
-                    cancelButtonTitle:@"OK"
-                    otherButtonTitles:nil, nil] show];
+//  [[[UIAlertView alloc] initWithTitle:@"Sample SDK"
+//                              message:@"This is a sample ad from the Sample SDK"
+//                             delegate:nil
+//                    cancelButtonTitle:@"OK"
+//                    otherButtonTitles:nil, nil] show];
 }
 
 @end

@@ -15,7 +15,6 @@ FOUNDATION_EXPORT const unsigned char TapMindSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TapMindSDK/PublicHeader.h>
 #import <TapMindSDK/TapMind.h>
-#import <TapMindSDK/TMNetworkType.h>
 #import <TapMindSDK/TMBannerAdRequest.h>
 #import <TapMindSDK/TMBannerView.h>
 #import <TapMindSDK/TMBannerDelegate.h>
