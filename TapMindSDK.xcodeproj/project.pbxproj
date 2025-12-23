@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23B564AF2EFA880A00FA691E /* TapMindSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564AC2EFA880A00FA691E /* TapMindSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564B02EFA880A00FA691E /* TapMindSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 23B564AD2EFA880A00FA691E /* TapMindSDK.docc */; };
+		23B564BA2EFA881F00FA691E /* AdUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564B52EFA881F00FA691E /* AdUnit.m */; };
+		23B564BB2EFA881F00FA691E /* BidRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564B32EFA881F00FA691E /* BidRequest.m */; };
+		23B564BC2EFA881F00FA691E /* BidAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564B92EFA881F00FA691E /* BidAPIManager.m */; };
+		23B564BD2EFA881F00FA691E /* BidResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564B72EFA881F00FA691E /* BidResponse.m */; };
+		23B564BE2EFA881F00FA691E /* BidResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564B62EFA881F00FA691E /* BidResponse.h */; };
+		23B564BF2EFA881F00FA691E /* BidRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564B22EFA881F00FA691E /* BidRequest.h */; };
+		23B564C02EFA881F00FA691E /* AdUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564B42EFA881F00FA691E /* AdUnit.h */; };
+		23B564C12EFA881F00FA691E /* BidAPIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564B82EFA881F00FA691E /* BidAPIManager.h */; };
+		23B564C92EFA883900FA691E /* TMRewardedAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564C72EFA883900FA691E /* TMRewardedAdRequest.m */; };
+		23B564CA2EFA883900FA691E /* TMRewardedAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564C52EFA883900FA691E /* TMRewardedAd.m */; };
+		23B564CB2EFA883900FA691E /* TMRewardedDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564C82EFA883900FA691E /* TMRewardedDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564CC2EFA883900FA691E /* TMRewardedAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564C42EFA883900FA691E /* TMRewardedAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564CD2EFA883900FA691E /* TMRewardedAdRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564C62EFA883900FA691E /* TMRewardedAdRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564D42EFA884A00FA691E /* TMBannerAdRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564CF2EFA884A00FA691E /* TMBannerAdRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564D52EFA884A00FA691E /* TMBannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564D12EFA884A00FA691E /* TMBannerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564D62EFA884A00FA691E /* TMBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564D22EFA884A00FA691E /* TMBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564D72EFA884A00FA691E /* TMBannerAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564D02EFA884A00FA691E /* TMBannerAdRequest.m */; };
+		23B564D82EFA884A00FA691E /* TMBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564D32EFA884A00FA691E /* TMBannerView.m */; };
+		23B564DF2EFA886800FA691E /* TMInterstitialAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564DB2EFA886800FA691E /* TMInterstitialAd.m */; };
+		23B564E02EFA886800FA691E /* TMInterstitialAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564DD2EFA886800FA691E /* TMInterstitialAdRequest.m */; };
+		23B564E12EFA886800FA691E /* TMInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564DE2EFA886800FA691E /* TMInterstitialDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564E22EFA886800FA691E /* TMInterstitialAdRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564DC2EFA886800FA691E /* TMInterstitialAdRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564E32EFA886800FA691E /* TMInterstitialAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564DA2EFA886800FA691E /* TMInterstitialAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564F02EFA887600FA691E /* TMNativeAdLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564E92EFA887600FA691E /* TMNativeAdLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564F12EFA887600FA691E /* TMNativeAdRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564EC2EFA887600FA691E /* TMNativeAdRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564F22EFA887600FA691E /* TMAdInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564EE2EFA887600FA691E /* TMAdInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564F32EFA887600FA691E /* TMNativeAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564E72EFA887600FA691E /* TMNativeAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564F42EFA887600FA691E /* TMNativeAdLoaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564EB2EFA887600FA691E /* TMNativeAdLoaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564F52EFA887600FA691E /* TMMediaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564E52EFA887600FA691E /* TMMediaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564F62EFA887600FA691E /* TMMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564E62EFA887600FA691E /* TMMediaView.m */; };
+		23B564F72EFA887600FA691E /* TMAdInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564EF2EFA887600FA691E /* TMAdInfoView.m */; };
+		23B564F82EFA887600FA691E /* TMNativeAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564ED2EFA887600FA691E /* TMNativeAdRequest.m */; };
+		23B564F92EFA887600FA691E /* TMNativeAdLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564EA2EFA887600FA691E /* TMNativeAdLoader.m */; };
+		23B564FA2EFA887600FA691E /* TMNativeAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564E82EFA887600FA691E /* TMNativeAd.m */; };
+		23B564FD2EFA887E00FA691E /* TapMind.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B564FB2EFA887E00FA691E /* TapMind.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B564FE2EFA887E00FA691E /* TapMind.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B564FC2EFA887E00FA691E /* TapMind.m */; };
+		901D6E502C95C55C46B8DF66 /* Pods_TapMindSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BDA229E6AB36B1DAD523F4 /* Pods_TapMindSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23B5649F2EFA87E800FA691E /* TapMindSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapMindSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B564AC2EFA880A00FA691E /* TapMindSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapMindSDK.h; sourceTree = "<group>"; };
+		23B564AD2EFA880A00FA691E /* TapMindSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TapMindSDK.docc; sourceTree = "<group>"; };
+		23B564B22EFA881F00FA691E /* BidRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BidRequest.h; sourceTree = "<group>"; };
+		23B564B32EFA881F00FA691E /* BidRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BidRequest.m; sourceTree = "<group>"; };
+		23B564B42EFA881F00FA691E /* AdUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdUnit.h; sourceTree = "<group>"; };
+		23B564B52EFA881F00FA691E /* AdUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdUnit.m; sourceTree = "<group>"; };
+		23B564B62EFA881F00FA691E /* BidResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BidResponse.h; sourceTree = "<group>"; };
+		23B564B72EFA881F00FA691E /* BidResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BidResponse.m; sourceTree = "<group>"; };
+		23B564B82EFA881F00FA691E /* BidAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BidAPIManager.h; sourceTree = "<group>"; };
+		23B564B92EFA881F00FA691E /* BidAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BidAPIManager.m; sourceTree = "<group>"; };
+		23B564C42EFA883900FA691E /* TMRewardedAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRewardedAd.h; sourceTree = "<group>"; };
+		23B564C52EFA883900FA691E /* TMRewardedAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRewardedAd.m; sourceTree = "<group>"; };
+		23B564C62EFA883900FA691E /* TMRewardedAdRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRewardedAdRequest.h; sourceTree = "<group>"; };
+		23B564C72EFA883900FA691E /* TMRewardedAdRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRewardedAdRequest.m; sourceTree = "<group>"; };
+		23B564C82EFA883900FA691E /* TMRewardedDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRewardedDelegate.h; sourceTree = "<group>"; };
+		23B564CF2EFA884A00FA691E /* TMBannerAdRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBannerAdRequest.h; sourceTree = "<group>"; };
+		23B564D02EFA884A00FA691E /* TMBannerAdRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBannerAdRequest.m; sourceTree = "<group>"; };
+		23B564D12EFA884A00FA691E /* TMBannerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBannerDelegate.h; sourceTree = "<group>"; };
+		23B564D22EFA884A00FA691E /* TMBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBannerView.h; sourceTree = "<group>"; };
+		23B564D32EFA884A00FA691E /* TMBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBannerView.m; sourceTree = "<group>"; };
+		23B564DA2EFA886800FA691E /* TMInterstitialAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMInterstitialAd.h; sourceTree = "<group>"; };
+		23B564DB2EFA886800FA691E /* TMInterstitialAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMInterstitialAd.m; sourceTree = "<group>"; };
+		23B564DC2EFA886800FA691E /* TMInterstitialAdRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMInterstitialAdRequest.h; sourceTree = "<group>"; };
+		23B564DD2EFA886800FA691E /* TMInterstitialAdRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMInterstitialAdRequest.m; sourceTree = "<group>"; };
+		23B564DE2EFA886800FA691E /* TMInterstitialDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMInterstitialDelegate.h; sourceTree = "<group>"; };
+		23B564E52EFA887600FA691E /* TMMediaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMMediaView.h; sourceTree = "<group>"; };
+		23B564E62EFA887600FA691E /* TMMediaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMMediaView.m; sourceTree = "<group>"; };
+		23B564E72EFA887600FA691E /* TMNativeAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMNativeAd.h; sourceTree = "<group>"; };
+		23B564E82EFA887600FA691E /* TMNativeAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMNativeAd.m; sourceTree = "<group>"; };
+		23B564E92EFA887600FA691E /* TMNativeAdLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMNativeAdLoader.h; sourceTree = "<group>"; };
+		23B564EA2EFA887600FA691E /* TMNativeAdLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMNativeAdLoader.m; sourceTree = "<group>"; };
+		23B564EB2EFA887600FA691E /* TMNativeAdLoaderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMNativeAdLoaderDelegate.h; sourceTree = "<group>"; };
+		23B564EC2EFA887600FA691E /* TMNativeAdRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMNativeAdRequest.h; sourceTree = "<group>"; };
+		23B564ED2EFA887600FA691E /* TMNativeAdRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMNativeAdRequest.m; sourceTree = "<group>"; };
+		23B564EE2EFA887600FA691E /* TMAdInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAdInfoView.h; sourceTree = "<group>"; };
+		23B564EF2EFA887600FA691E /* TMAdInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAdInfoView.m; sourceTree = "<group>"; };
+		23B564FB2EFA887E00FA691E /* TapMind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapMind.h; sourceTree = "<group>"; };
+		23B564FC2EFA887E00FA691E /* TapMind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapMind.m; sourceTree = "<group>"; };
+		26BDA229E6AB36B1DAD523F4 /* Pods_TapMindSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapMindSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8593F9E2F20E7F868B2B557 /* Pods-TapMindSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapMindSDK.debug.xcconfig"; path = "Target Support Files/Pods-TapMindSDK/Pods-TapMindSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		F40F74D950385540BF9C30D2 /* Pods-TapMindSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapMindSDK.release.xcconfig"; path = "Target Support Files/Pods-TapMindSDK/Pods-TapMindSDK.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23B5649C2EFA87E800FA691E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901D6E502C95C55C46B8DF66 /* Pods_TapMindSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B564952EFA87E800FA691E = {
+			isa = PBXGroup;
+			children = (
+				23B564AE2EFA880A00FA691E /* TapMindSDK */,
+				23B564A02EFA87E800FA691E /* Products */,
+				3F3AC3D4A3D6258355F2DF82 /* Pods */,
+				DDA66FFB3ABE5346C91F3320 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23B564A02EFA87E800FA691E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23B5649F2EFA87E800FA691E /* TapMindSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23B564AE2EFA880A00FA691E /* TapMindSDK */ = {
+			isa = PBXGroup;
+			children = (
+				23B564FB2EFA887E00FA691E /* TapMind.h */,
+				23B564FC2EFA887E00FA691E /* TapMind.m */,
+				23B564AC2EFA880A00FA691E /* TapMindSDK.h */,
+				23B564E42EFA886D00FA691E /* Native */,
+				23B564D92EFA885200FA691E /* Interstitial */,
+				23B564CE2EFA884200FA691E /* Banner */,
+				23B564C32EFA882B00FA691E /* Rewarded */,
+				23B564B12EFA880D00FA691E /* Service */,
+				23B564AD2EFA880A00FA691E /* TapMindSDK.docc */,
+			);
+			path = TapMindSDK;
+			sourceTree = "<group>";
+		};
+		23B564B12EFA880D00FA691E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				23B564B22EFA881F00FA691E /* BidRequest.h */,
+				23B564B32EFA881F00FA691E /* BidRequest.m */,
+				23B564B42EFA881F00FA691E /* AdUnit.h */,
+				23B564B52EFA881F00FA691E /* AdUnit.m */,
+				23B564B62EFA881F00FA691E /* BidResponse.h */,
+				23B564B72EFA881F00FA691E /* BidResponse.m */,
+				23B564B82EFA881F00FA691E /* BidAPIManager.h */,
+				23B564B92EFA881F00FA691E /* BidAPIManager.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		23B564C32EFA882B00FA691E /* Rewarded */ = {
+			isa = PBXGroup;
+			children = (
+				23B564C42EFA883900FA691E /* TMRewardedAd.h */,
+				23B564C52EFA883900FA691E /* TMRewardedAd.m */,
+				23B564C62EFA883900FA691E /* TMRewardedAdRequest.h */,
+				23B564C72EFA883900FA691E /* TMRewardedAdRequest.m */,
+				23B564C82EFA883900FA691E /* TMRewardedDelegate.h */,
+			);
+			path = Rewarded;
+			sourceTree = "<group>";
+		};
+		23B564CE2EFA884200FA691E /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				23B564CF2EFA884A00FA691E /* TMBannerAdRequest.h */,
+				23B564D02EFA884A00FA691E /* TMBannerAdRequest.m */,
+				23B564D12EFA884A00FA691E /* TMBannerDelegate.h */,
+				23B564D22EFA884A00FA691E /* TMBannerView.h */,
+				23B564D32EFA884A00FA691E /* TMBannerView.m */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		23B564D92EFA885200FA691E /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				23B564DA2EFA886800FA691E /* TMInterstitialAd.h */,
+				23B564DB2EFA886800FA691E /* TMInterstitialAd.m */,
+				23B564DC2EFA886800FA691E /* TMInterstitialAdRequest.h */,
+				23B564DD2EFA886800FA691E /* TMInterstitialAdRequest.m */,
+				23B564DE2EFA886800FA691E /* TMInterstitialDelegate.h */,
+			);
+			path = Interstitial;
+			sourceTree = "<group>";
+		};
+		23B564E42EFA886D00FA691E /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				23B564E52EFA887600FA691E /* TMMediaView.h */,
+				23B564E62EFA887600FA691E /* TMMediaView.m */,
+				23B564E72EFA887600FA691E /* TMNativeAd.h */,
+				23B564E82EFA887600FA691E /* TMNativeAd.m */,
+				23B564E92EFA887600FA691E /* TMNativeAdLoader.h */,
+				23B564EA2EFA887600FA691E /* TMNativeAdLoader.m */,
+				23B564EB2EFA887600FA691E /* TMNativeAdLoaderDelegate.h */,
+				23B564EC2EFA887600FA691E /* TMNativeAdRequest.h */,
+				23B564ED2EFA887600FA691E /* TMNativeAdRequest.m */,
+				23B564EE2EFA887600FA691E /* TMAdInfoView.h */,
+				23B564EF2EFA887600FA691E /* TMAdInfoView.m */,
+			);
+			path = Native;
+			sourceTree = "<group>";
+		};
+		3F3AC3D4A3D6258355F2DF82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8593F9E2F20E7F868B2B557 /* Pods-TapMindSDK.debug.xcconfig */,
+				F40F74D950385540BF9C30D2 /* Pods-TapMindSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DDA66FFB3ABE5346C91F3320 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26BDA229E6AB36B1DAD523F4 /* Pods_TapMindSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23B5649A2EFA87E800FA691E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B564FD2EFA887E00FA691E /* TapMind.h in Headers */,
+				23B564CB2EFA883900FA691E /* TMRewardedDelegate.h in Headers */,
+				23B564CC2EFA883900FA691E /* TMRewardedAd.h in Headers */,
+				23B564F02EFA887600FA691E /* TMNativeAdLoader.h in Headers */,
+				23B564F12EFA887600FA691E /* TMNativeAdRequest.h in Headers */,
+				23B564F22EFA887600FA691E /* TMAdInfoView.h in Headers */,
+				23B564F32EFA887600FA691E /* TMNativeAd.h in Headers */,
+				23B564F42EFA887600FA691E /* TMNativeAdLoaderDelegate.h in Headers */,
+				23B564CD2EFA883900FA691E /* TMRewardedAdRequest.h in Headers */,
+				23B564F52EFA887600FA691E /* TMMediaView.h in Headers */,
+				23B564D42EFA884A00FA691E /* TMBannerAdRequest.h in Headers */,
+				23B564D52EFA884A00FA691E /* TMBannerDelegate.h in Headers */,
+				23B564D62EFA884A00FA691E /* TMBannerView.h in Headers */,
+				23B564E12EFA886800FA691E /* TMInterstitialDelegate.h in Headers */,
+				23B564E22EFA886800FA691E /* TMInterstitialAdRequest.h in Headers */,
+				23B564E32EFA886800FA691E /* TMInterstitialAd.h in Headers */,
+				23B564AF2EFA880A00FA691E /* TapMindSDK.h in Headers */,
+				23B564BE2EFA881F00FA691E /* BidResponse.h in Headers */,
+				23B564BF2EFA881F00FA691E /* BidRequest.h in Headers */,
+				23B564C02EFA881F00FA691E /* AdUnit.h in Headers */,
+				23B564C12EFA881F00FA691E /* BidAPIManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23B5649E2EFA87E800FA691E /* TapMindSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B564A72EFA87E800FA691E /* Build configuration list for PBXNativeTarget "TapMindSDK" */;
+			buildPhases = (
+				E22090400DD18028D2AE2A04 /* [CP] Check Pods Manifest.lock */,
+				23B5649A2EFA87E800FA691E /* Headers */,
+				23B5649B2EFA87E800FA691E /* Sources */,
+				23B5649C2EFA87E800FA691E /* Frameworks */,
+				23B5649D2EFA87E800FA691E /* Resources */,
+				2520463FFEC0504E044EC55B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapMindSDK;
+			productName = TapMindSDK;
+			productReference = 23B5649F2EFA87E800FA691E /* TapMindSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23B564962EFA87E800FA691E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					23B5649E2EFA87E800FA691E = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 23B564992EFA87E800FA691E /* Build configuration list for PBXProject "TapMindSDK" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23B564952EFA87E800FA691E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 23B564A02EFA87E800FA691E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23B5649E2EFA87E800FA691E /* TapMindSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23B5649D2EFA87E800FA691E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2520463FFEC0504E044EC55B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapMindSDK/Pods-TapMindSDK-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapMindSDK/Pods-TapMindSDK-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TapMindSDK/Pods-TapMindSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E22090400DD18028D2AE2A04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapMindSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23B5649B2EFA87E800FA691E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B564B02EFA880A00FA691E /* TapMindSDK.docc in Sources */,
+				23B564BA2EFA881F00FA691E /* AdUnit.m in Sources */,
+				23B564DF2EFA886800FA691E /* TMInterstitialAd.m in Sources */,
+				23B564E02EFA886800FA691E /* TMInterstitialAdRequest.m in Sources */,
+				23B564BB2EFA881F00FA691E /* BidRequest.m in Sources */,
+				23B564BC2EFA881F00FA691E /* BidAPIManager.m in Sources */,
+				23B564C92EFA883900FA691E /* TMRewardedAdRequest.m in Sources */,
+				23B564F62EFA887600FA691E /* TMMediaView.m in Sources */,
+				23B564F72EFA887600FA691E /* TMAdInfoView.m in Sources */,
+				23B564F82EFA887600FA691E /* TMNativeAdRequest.m in Sources */,
+				23B564F92EFA887600FA691E /* TMNativeAdLoader.m in Sources */,
+				23B564FA2EFA887600FA691E /* TMNativeAd.m in Sources */,
+				23B564CA2EFA883900FA691E /* TMRewardedAd.m in Sources */,
+				23B564D72EFA884A00FA691E /* TMBannerAdRequest.m in Sources */,
+				23B564D82EFA884A00FA691E /* TMBannerView.m in Sources */,
+				23B564BD2EFA881F00FA691E /* BidResponse.m in Sources */,
+				23B564FE2EFA887E00FA691E /* TapMind.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23B564A82EFA87E800FA691E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8593F9E2F20E7F868B2B557 /* Pods-TapMindSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = Tuvoc.TapMindSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23B564A92EFA87E800FA691E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F40F74D950385540BF9C30D2 /* Pods-TapMindSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = Tuvoc.TapMindSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23B564AA2EFA87E800FA691E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23B564AB2EFA87E800FA691E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23B564992EFA87E800FA691E /* Build configuration list for PBXProject "TapMindSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B564AA2EFA87E800FA691E /* Debug */,
+				23B564AB2EFA87E800FA691E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B564A72EFA87E800FA691E /* Build configuration list for PBXNativeTarget "TapMindSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B564A82EFA87E800FA691E /* Debug */,
+				23B564A92EFA87E800FA691E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23B564962EFA87E800FA691E /* Project object */;
+}
