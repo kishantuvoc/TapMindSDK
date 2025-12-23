@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/kishantuvoc/TapMindSDK.git',
     :tag => s.version.to_s
   }
-
-  s.source_files     = 'TapMindSDK/**/*.{h,m}'
+s.vendored_frameworks = 'TapMindSDK.xcframework'
+  #s.source_files     = 'TapMindSDK/**/*.{h,m}'
   #s.public_header_files = 'TapMindSDK/Public/**/*.h'
   #s.exclude_files    = 'TapMindSDK/Exclude'
-s.static_framework = true
+#s.static_framework = true
 s.requires_arc = true
 # 👉 Dependencies
   s.dependency 'Google-Mobile-Ads-SDK'
