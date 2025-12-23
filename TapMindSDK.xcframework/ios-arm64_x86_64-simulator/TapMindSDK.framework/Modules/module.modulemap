@@ -1,0 +1,6 @@
+framework module TapMindSDK {
+  umbrella header "TapMindSDK.h"
+  export *
+
+  module * { export * }
+}
