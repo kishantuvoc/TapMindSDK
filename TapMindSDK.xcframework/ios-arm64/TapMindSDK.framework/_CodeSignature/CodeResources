@@ -4,6 +4,38 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/GoogleMobileAds.framework/GoogleMobileAds</key>
+		<data>
+		G73/E3Dio7zoMgjaf4L+vtzvz0M=
+		</data>
+		<key>Frameworks/GoogleMobileAds.framework/Info.plist</key>
+		<data>
+		cTVVyqOLeMDuNa07l560gHFXNjc=
+		</data>
+		<key>Frameworks/GoogleMobileAds.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		VWCA3MeaiPMoOAS1uOteTSLX8js=
+		</data>
+		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeResources</key>
+		<data>
+		GPV1uqglgYIYDFIh7hoRP48mTHM=
+		</data>
+		<key>Frameworks/UserMessagingPlatform.framework/Info.plist</key>
+		<data>
+		6zOl9jW6ipv5nEVV7uQ38ARhe9Q=
+		</data>
+		<key>Frameworks/UserMessagingPlatform.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		k9OFlDPBRWfteJ+bfG12WAoBuls=
+		</data>
+		<key>Frameworks/UserMessagingPlatform.framework/UserMessagingPlatform</key>
+		<data>
+		n50bwdY9mkmdTHEvk0gnE8TOlVw=
+		</data>
+		<key>Frameworks/UserMessagingPlatform.framework/_CodeSignature/CodeResources</key>
+		<data>
+		sgIDbQZt5KDxtNpCBc82ip6xhIk=
+		</data>
 		<key>Headers/TMAdInfoView.h</key>
 		<data>
 		q0aJzsabg9gpBw7gYT5m42arxqU=
@@ -66,7 +98,7 @@
 		</data>
 		<key>Headers/TapMind.h</key>
 		<data>
-		1aiGOBjX7qMBibTWiB+gy9lsyJE=
+		NEZTsP0SrMYxdN1AUS/YBOOulKY=
 		</data>
 		<key>Headers/TapMindSDK.h</key>
 		<data>
@@ -80,9 +112,69 @@
 		<data>
 		I5wbvrQAxu3FCuy8JcN05qoWsrw=
 		</data>
+		<key>README</key>
+		<data>
+		OPZXVkhcIReF0eAhcab1qw4rApI=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/GoogleMobileAds.framework/GoogleMobileAds</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			w7v+7GL+cPVpHmmoPaH4WpatD1boQkGF9lFuVU6tUao=
+			</data>
+		</dict>
+		<key>Frameworks/GoogleMobileAds.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iHaeufkcrcE16inXqzXQfZa0Vn4VnUsdKGFhTFjYhM4=
+			</data>
+		</dict>
+		<key>Frameworks/GoogleMobileAds.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
+			</data>
+		</dict>
+		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q1tIAveKSs+H4PSL3+Dvelowxo8pSxvhS8q8L5LxJxA=
+			</data>
+		</dict>
+		<key>Frameworks/UserMessagingPlatform.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2sUJplwxy+6ZgbWpoc1yHHiz4xyLUxYu7ociXJsh1es=
+			</data>
+		</dict>
+		<key>Frameworks/UserMessagingPlatform.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=
+			</data>
+		</dict>
+		<key>Frameworks/UserMessagingPlatform.framework/UserMessagingPlatform</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KZHsyFwf1RJBor2cfUv28dY9hLGbaCkAOOnPXekUyR0=
+			</data>
+		</dict>
+		<key>Frameworks/UserMessagingPlatform.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Jcm7hwhmzO+JSkY2MTFOQnF8fzIVbnHgAQ+Vf92hCXg=
+			</data>
+		</dict>
 		<key>Headers/TMAdInfoView.h</key>
 		<dict>
 			<key>hash2</key>
@@ -192,7 +284,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j6gmV1QaUpi5TNxzPJG24vzZS4m1o0o87KN8Z/C4oYw=
+			T1IGdC/mD8Sli7PaPU8KVYEXmYF0WZfmKnGrfyt73Ng=
 			</data>
 		</dict>
 		<key>Headers/TapMindSDK.h</key>
@@ -207,6 +299,13 @@
 			<key>hash2</key>
 			<data>
 			pYk+i+cD1fcfjn34z0cxy9YtNZps6fv57yioWVAtV3M=
+			</data>
+		</dict>
+		<key>README</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BCjCOa1fUfmJArSgLbGH6xwloiV3DJQyizMAoVdl4aA=
 			</data>
 		</dict>
 	</dict>
