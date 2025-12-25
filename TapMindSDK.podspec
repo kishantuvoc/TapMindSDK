@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TapMindSDK'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A high-performance iOS SDK for delivering intelligent and optimized ads.'
 
   s.description      = <<-DESC
