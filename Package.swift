@@ -1,41 +1,38 @@
-// swift-tools-version:5.9
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
     name: "TapMindSDK",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v13) // The minimum iOS version your SDK supports
     ],
     products: [
+        // This is what users will see when they add the package
         .library(
             name: "TapMindSDK",
-            targets: ["TapMindSDK"]
-        )
+            targets: ["TapMindSDKTarget"])
     ],
     dependencies: [
-        // Google Mobile Ads SDK (SPM)
+        // Google Mobile Ads official Swift Package
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
             from: "11.0.0"
         )
     ],
     targets: [
-        // 🔹 Binary XCFramework
+        // 1. The actual binary framework
         .binaryTarget(
             name: "TapMindSDKBinary",
             path: "TapMindSDK.xcframework"
         ),
-
-        // 🔹 Wrapper target to attach dependencies
+        // 2. The wrapper target that bridges your binary and Google Mobile Ads
         .target(
-            name: "TapMindSDK",
+            name: "TapMindSDKTarget",
             dependencies: [
-                "TapMindSDKBinary",
-                .product(
-                    name: "GoogleMobileAds",
-                    package: "swift-package-manager-google-mobile-ads"
-                )
-            ]
+                .target(name: "TapMindSDKBinary"),
+                .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads")
+            ],
+            path: "Sources/TapMindSDK" // Points to your physical folder
         )
     ]
 )
