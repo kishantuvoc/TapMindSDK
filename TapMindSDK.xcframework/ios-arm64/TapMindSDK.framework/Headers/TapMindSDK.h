@@ -2,7 +2,7 @@
 //  TapMindSDK.h
 //  TapMindSDK
 //
-//  Created by Kishan Italiya on 23/12/25.
+//  Created by Kishan Italiya on 27/11/25.
 //
 
 #import <Foundation/Foundation.h>
@@ -15,6 +15,7 @@ FOUNDATION_EXPORT const unsigned char TapMindSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TapMindSDK/PublicHeader.h>
 #import <TapMindSDK/TapMind.h>
+#import <TapMindSDK/TMNetworkType.h>
 #import <TapMindSDK/TMBannerAdRequest.h>
 #import <TapMindSDK/TMBannerView.h>
 #import <TapMindSDK/TMBannerDelegate.h>

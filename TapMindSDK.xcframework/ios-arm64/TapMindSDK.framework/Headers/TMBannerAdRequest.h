@@ -40,6 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @param instanceId The identifier for the network instance.
  @param adm The ad markup.
+ @param size The ad size.
  */
 - (instancetype)initWithInstanceId:(NSString *)instanceId
                                adm:(NSString *)adm

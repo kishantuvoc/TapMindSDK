@@ -12,6 +12,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TMNativeAd : NSObject
+/// The appId.
+@property(nonatomic, copy) NSString *appId;
+@property(nonatomic, copy) NSString *adapterId;
+@property(nonatomic, copy) NSString *placementId;
+@property(nonatomic, copy) NSString *partner;
+@property(nonatomic, copy) NSString *adType;
 /// The name of an advertiser.
 @property(nonatomic, copy) NSString *advertiser;
 

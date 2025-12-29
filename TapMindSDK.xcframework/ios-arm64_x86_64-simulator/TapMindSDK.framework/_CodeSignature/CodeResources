@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TMBannerAdRequest.h</key>
 		<data>
-		Ra5ko/w+y+FUcBiq6nAD2ZMvX7g=
+		Jo6w8NZaVVkr5WgzNGWaZ61Rn6U=
 		</data>
 		<key>Headers/TMBannerDelegate.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/TMNativeAd.h</key>
 		<data>
-		2qDYY7o0wlDs3UNr8wQlX4b4Bww=
+		BwM2KTCUk1ywaZ/AVurYykSYsVk=
 		</data>
 		<key>Headers/TMNativeAdLoader.h</key>
 		<data>
@@ -51,6 +51,10 @@
 		<key>Headers/TMNativeAdRequest.h</key>
 		<data>
 		i9y0Gj6Hl6h0gz8M9p3Hyko1chM=
+		</data>
+		<key>Headers/TMNetworkType.h</key>
+		<data>
+		3P6igo21r0QtkRbljrKO+Q8cew4=
 		</data>
 		<key>Headers/TMRewardedAd.h</key>
 		<data>
@@ -70,7 +74,7 @@
 		</data>
 		<key>Headers/TapMindSDK.h</key>
 		<data>
-		QNr8YYxcjaPmPluAh5JQGq9z7Wc=
+		9cmD49242w2yNzFv9FZBFqqxBCA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -79,10 +83,6 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		I5wbvrQAxu3FCuy8JcN05qoWsrw=
-		</data>
-		<key>README</key>
-		<data>
-		OPZXVkhcIReF0eAhcab1qw4rApI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zRFDw2uBE/MZEk53TVM8LjpZa57zm1SwDMciRQNTkCI=
+			p9btDN0bGXCzM94H6bDHSJ7OzYYFCbibpx2Ra3ULOMo=
 			</data>
 		</dict>
 		<key>Headers/TMBannerDelegate.h</key>
@@ -147,7 +147,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZhcV/l/t9MqjxXi8BjS1xB3oJO+Nq2P95ElvCoRn0FI=
+			eJdBI/kT3DHLqdQUfTyaoyOyHQreMFzqxlyXvah4bDM=
 			</data>
 		</dict>
 		<key>Headers/TMNativeAdLoader.h</key>
@@ -169,6 +169,13 @@
 			<key>hash2</key>
 			<data>
 			kyPP48JU1XZfUS4dsy90j7LNPYuJjQRrqoMfhDbSE4U=
+			</data>
+		</dict>
+		<key>Headers/TMNetworkType.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H7xxsHq1xNicpCFuBqQtP/qbe/7lEIQ2bA/VTaB1D8g=
 			</data>
 		</dict>
 		<key>Headers/TMRewardedAd.h</key>
@@ -203,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BWTxiHlZBPsqxwXLLSN1s48t0GYL68NT/WAsfev1gxg=
+			K4R5x8/imS/9lrQKcYK6jQ88VmDOeqlV0Hg/KHy1gI4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -211,13 +218,6 @@
 			<key>hash2</key>
 			<data>
 			pYk+i+cD1fcfjn34z0cxy9YtNZps6fv57yioWVAtV3M=
-			</data>
-		</dict>
-		<key>README</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BCjCOa1fUfmJArSgLbGH6xwloiV3DJQyizMAoVdl4aA=
 			</data>
 		</dict>
 	</dict>
