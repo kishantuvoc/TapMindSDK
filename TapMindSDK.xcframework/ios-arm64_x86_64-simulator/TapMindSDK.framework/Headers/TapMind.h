@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)appName;
 
++ (NSString *)appBundle;
+
 + (NSString *)appVersion;
 
 + (NSString *)countryCode;
