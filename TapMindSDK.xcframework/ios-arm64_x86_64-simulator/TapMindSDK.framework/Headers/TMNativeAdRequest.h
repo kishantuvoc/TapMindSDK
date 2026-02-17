@@ -25,6 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, strong, readwrite) NSString *placement;
 
+@property(nonatomic, strong, readwrite) NSString *adapterName;
 /**
  The view controller to show the ad on, if available.
  */
@@ -43,6 +44,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (instancetype)initWithInstanceId:(NSString *)instanceId adm:(NSString *)adm placementName: (NSString *)placement;
 
+- (instancetype)initWithPlacement:(NSString *)placementName
+                          adapter:(NSString *)adapterName;
 /**
  Sets extra parameters for the ad request.
  Optional.
