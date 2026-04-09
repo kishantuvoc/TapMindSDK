@@ -21,6 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)countryCode;
 
++ (void)initializeSDK;
+
 @end
 
 NS_ASSUME_NONNULL_END
