@@ -31,6 +31,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, strong, readwrite) NSString *placementPriority;
 
+@property(nonatomic, assign) CGSize adSize;
+
 /**
  The view controller to show the ad on, if available.
  */
@@ -59,6 +61,12 @@ NS_ASSUME_NONNULL_BEGIN
                           adapter:(NSString *)adapterName
                           version:(NSString *)adapterVersion
                           priority:(NSString *)placementPriority;
+
+- (instancetype)initWithPlacement:(NSString *)placementName
+                          adapter:(NSString *)adapterName
+                          version:(NSString *)adapterVersion
+                          priority:(NSString *)placementPriority
+                             size:(CGSize)adSize;
 /**
  Sets extra parameters for the ad request.
  Optional.
