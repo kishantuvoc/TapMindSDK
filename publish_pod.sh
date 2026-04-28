@@ -19,8 +19,7 @@ fi
 echo "🏷️  Tagging version $VERSION in git..."
 git add .
 #git commit -m "Release version $VERSION"
-git commit -m "1. Added the dynamic size request process
-2.Handle the thing to taken the only placement name to be priority"
+git commit -m "Updated new server URL"
 git tag "$VERSION"
 git push origin main
 git push origin "$VERSION"
