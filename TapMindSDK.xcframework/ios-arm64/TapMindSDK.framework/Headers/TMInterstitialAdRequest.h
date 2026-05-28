@@ -31,6 +31,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, strong, readwrite) NSString *adapterVersion;
 
 @property(nonatomic, strong, readwrite) NSString *placementPriority;
+
+@property(nonatomic, assign) BOOL isTesting;
 /**
  Extra parameters for the ad request.
  */
@@ -51,6 +53,8 @@ NS_ASSUME_NONNULL_BEGIN
                           adapter:(NSString *)adapterName
                           version:(NSString *)adapterVersion
                           priority:(NSString *)placementPriority;
+
+- (instancetype)initWithPlacement:(NSString *)placementName adapter:(NSString *)adapterName version:(NSString *)adapterVersion priority:(NSString *)placementPriority test:(BOOL)isTest;
 /**
  Sets extra parameters for the ad request.
  Optional.

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TMBannerAdRequest.h</key>
 		<data>
-		s+8/IL+bhZ9P8nBnIHeC/I/f4j8=
+		ZCMJEjDCgmDy+deQwOw2RZAnZok=
 		</data>
 		<key>Headers/TMBannerDelegate.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/TMInterstitialAdRequest.h</key>
 		<data>
-		q7w7uYyPTtG+w+v2spaF9v9+maQ=
+		+OYfwny9I3bmA34hVN+FyogyqFk=
 		</data>
 		<key>Headers/TMInterstitialDelegate.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/TMNativeAdRequest.h</key>
 		<data>
-		1QcagOkWUp4798TvjKaA3gH3iuE=
+		11bJ2o+JbPqnTvTD+5R8rZCOeAo=
 		</data>
 		<key>Headers/TMNetworkType.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/TMRewardedAdRequest.h</key>
 		<data>
-		0B9Wjsf+FapJWNAPS7xqKAlQbYM=
+		8puaO4kAJGRZQR9CAmporNoWN9U=
 		</data>
 		<key>Headers/TMRewardedDelegate.h</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Headers/TapMind.h</key>
 		<data>
-		Z9Hk7tjX0dBh+Pq3dK3xbHu42OU=
+		FmqFl1AnRWpTnO/LO2ciL1rNs4Y=
 		</data>
 		<key>Headers/TapMindSDK.h</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		X31T9eTcVEqfeCSQ6+QBGIBtYCQ=
+		Rhr/WS2Vw1bRq0zDAXwCDm5/oaE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vw9NmLvrPJPuPheBmzSRES5MS2DbmhoFTLpZhvk4OyI=
+			6BBV8m0y6s+fr5fy5OFJe5BdCMFMYbg7TxNhp2VpT6o=
 			</data>
 		</dict>
 		<key>Headers/TMBannerDelegate.h</key>
@@ -126,7 +126,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i+HVfx1mYRiN8I/x893l6ZaKJBb8xaSWQuaBu26r5Ao=
+			lNsTndxFNQgUejV09QDKGeh/Pnq7VHDXDN/1uEvsodo=
 			</data>
 		</dict>
 		<key>Headers/TMInterstitialDelegate.h</key>
@@ -168,7 +168,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PxQ/2BEPCjy4QV6GtNkkxlQY5z1rol6HV7hV6BnKMQw=
+			qVAfklWYjeysw2qSnukTHXwoNFBOs1x8xGuHONyOJ1U=
 			</data>
 		</dict>
 		<key>Headers/TMNetworkType.h</key>
@@ -189,7 +189,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lPGXFjVGW2kJ4AhsoRnaif8jYYpRZQSmd1X+a9pyKUU=
+			KcIUQazCK8RhrK0atz+upkg2esplxOmFlM81phv4Wns=
 			</data>
 		</dict>
 		<key>Headers/TMRewardedDelegate.h</key>
@@ -203,7 +203,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YKQgdKPw5tP4x24nsPDb+09Ty+0CVpOWsFBe3J++3Jk=
+			oppco1KfkeGJ5BcBOcHfr1grQsX/O+GKTdAG/oyCIzA=
 			</data>
 		</dict>
 		<key>Headers/TapMindSDK.h</key>

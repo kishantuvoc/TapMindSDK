@@ -6,10 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <GoogleMobileAds/GoogleMobileAds.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TapMind : NSObject
+
++ (instancetype)sharedInstance;
 
 + (NSString *)sdkVersion;
 
@@ -22,6 +25,20 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)countryCode;
 
 + (void)initializeSDK;
+
+- (void)initializeSDK:(NSString *)partner;
+
+- (void)initialisation:(NSString *)partner;
+
++ (void)setConsentReady:(BOOL)consentReady;
+
++ (BOOL)isConsentReady;
+
++ (nullable NSError *)consentGateError;
+
++ (void)applyConsentSignalsToGoogleRequest:(GADRequest *)request;
+
+@property (nonatomic, copy) NSString *adPartner;
 
 @end
 
