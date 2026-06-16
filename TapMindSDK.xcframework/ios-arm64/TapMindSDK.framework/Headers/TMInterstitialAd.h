@@ -11,9 +11,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TMInterstitialAd : NSObject
-+ (instancetype)sharedInstance;
+
+- (instancetype)init NS_DESIGNATED_INITIALIZER;
++ (instancetype)new NS_UNAVAILABLE;
+
 - (void)initWithRequest:(TMInterstitialAdRequest *)adRequest
-                   delegate:(id<TMInterstitialDelegate>)delegate;
+               delegate:(id<TMInterstitialDelegate>)delegate;
 - (void)showFromViewController:(UIViewController *)viewController;
 @end
 

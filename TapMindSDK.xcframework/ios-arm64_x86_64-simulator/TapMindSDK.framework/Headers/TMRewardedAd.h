@@ -12,9 +12,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TMRewardedAd : NSObject
-+ (instancetype)sharedInstance;
+
+- (instancetype)init NS_DESIGNATED_INITIALIZER;
++ (instancetype)new NS_UNAVAILABLE;
+
 - (void)initWithRequest:(TMRewardedAdRequest *)adRequest
-                   delegate:(id<TMRewardedDelegate>)delegate;
+               delegate:(id<TMRewardedDelegate>)delegate;
 - (void)showFromViewController:(UIViewController *)viewController;
 @end
 

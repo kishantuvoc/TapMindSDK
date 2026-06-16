@@ -19,7 +19,7 @@ fi
 echo "🏷️  Tagging version $VERSION in git..."
 git add .
 #git commit -m "Release version $VERSION"
-git commit -m "Updated new server URL for backend serving."
+git commit -m "Removed the singleton flow in order to return the perfect ads for each placements"
 git tag "$VERSION"
 git push origin main
 git push origin "$VERSION"
