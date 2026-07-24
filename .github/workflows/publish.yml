@@ -1,0 +1,142 @@
+name: Verify & Publish CocoaPod
+
+on:
+  push:
+    tags:
+      - '*.*.*'
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: macos-latest
+
+    env:
+      PODSPEC: TapMindSDK.podspec
+      XCFRAMEWORK: TapMindSDK.xcframework
+
+    steps:
+      ############################################################
+      # Checkout
+      ############################################################
+
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      ############################################################
+      # CodeQL Security Scan
+      ############################################################
+
+      # - name: Initialize CodeQL
+      #   uses: github/codeql-action/init@v3
+      #   with:
+      #     languages: c-cpp, swift
+
+      # - name: Perform CodeQL Analysis
+      #   uses: github/codeql-action/analyze@v3
+
+      ############################################################
+      # Verify CocoaPods
+      ############################################################
+
+      - name: Verify CocoaPods Installation
+        run: |
+          echo "CocoaPods Version:"
+          pod --version
+
+      ############################################################
+      # Secret Scan
+      ############################################################
+
+      - name: Scan Repository For Secrets
+        uses: trufflesecurity/trufflehog@main
+        with:
+          path: .
+
+      ############################################################
+      # Scan For Dangerous Commands
+      ############################################################
+
+      - name: Scan Repository For Dangerous Commands
+        shell: bash
+        run: |
+          echo "Scanning repository..."
+
+          if git ls-files \
+            | grep -v '^.github/' \
+            | xargs -r grep -nE 'curl.*\|.*sh|wget.*\|.*sh|bash <\(|eval[[:space:]]*\$\(|base64.*\|.*sh|xxd'
+          then
+            echo "❌ Dangerous commands found."
+            exit 1
+          fi
+
+          echo "✅ No dangerous commands found."
+
+      ############################################################
+      # Verify XCFramework Exists
+      ############################################################
+
+      - name: Verify XCFramework
+        run: |
+          if [ ! -d "$XCFRAMEWORK" ]; then
+            echo "XCFramework not found."
+            exit 1
+          fi
+
+          echo "XCFramework Found."
+
+      ############################################################
+      # Validate Podspec
+      ############################################################
+
+      - name: Validate Podspec
+        run: |
+          pod spec lint "$PODSPEC" \
+            --allow-warnings \
+            --verbose
+
+      ############################################################
+      # Verify Tag == Podspec Version
+      ############################################################
+
+      - name: Verify Version
+        shell: bash
+        run: |
+          POD_VERSION=$(ruby -e "
+            require 'cocoapods'
+            spec = Pod::Specification.from_file('$PODSPEC')
+            puts spec.version
+          ")
+
+          TAG_VERSION=${GITHUB_REF#refs/tags/}
+
+          echo "Podspec Version : $POD_VERSION"
+          echo "Git Tag Version : $TAG_VERSION"
+
+          if [ "$POD_VERSION" != "$TAG_VERSION" ]; then
+            echo "❌ Version mismatch!"
+            exit 1
+          fi
+
+          echo "✅ Version Verified."
+
+      ############################################################
+      # Publish Pod
+      ############################################################
+
+      - name: Publish CocoaPod
+        env:
+          COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+        run: |
+          pod trunk push "$PODSPEC" \
+            --allow-warnings \
+            --verbose
+
+      ############################################################
+      # Success
+      ############################################################
+
+      - name: Completed
+        run: |
+          echo "✅ Successfully published CocoaPod."
