@@ -18,6 +18,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)initWithRequest:(TMBannerAdRequest *)adRequest
                delegate:(id<TMBannerDelegate>)delegate;
+
+/// Cancels in-flight loads, refresh/retry timers, and adapter requests.
+- (void)invalidate;
+
 @end
 
 NS_ASSUME_NONNULL_END
