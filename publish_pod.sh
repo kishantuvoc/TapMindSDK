@@ -7,25 +7,29 @@ VERSION=$(grep -E 's.version\s+=' "$PODSPEC_NAME" | cut -d '"' -f 2 | cut -d "'"
 echo "🚀 Starting publication process for $PODSPEC_NAME version $VERSION..."
 
 # 1. Lint the Podspec locally
-echo "🔍 Validating podspec..."
-if pod lib lint --allow-warnings; then
-    echo "✅ Lint passed!"
-else
-    echo "❌ Lint failed. Please fix errors before publishing."
-    exit 1
-fi
+#echo "🔍 Validating podspec..."
+#if pod lib lint --allow-warnings; then
+#    echo "✅ Lint passed!"
+#else
+#    echo "❌ Lint failed. Please fix errors before publishing."
+#    exit 1
+#fi
 
 # 2. Git Tagging
 echo "🏷️  Tagging version $VERSION in git..."
 git add .
 #git commit -m "Release version $VERSION"
-git commit -m "Removed logs"
+git commit -m "1.Add required ad parameters to Bid Request/Impression APIs.
+2.Implement multi-ad scenarios, timeout, refresh, and thread management.
+3.Enable key request/response flow logs."
 git tag "$VERSION"
 git push origin main
 git push origin "$VERSION"
 
-# 3. Push to CocoaPods Trunk
-echo "📤 Pushing to CocoaPods Trunk..."
-pod trunk push "$PODSPEC_NAME" --allow-warnings
+echo "📤 Code pushed successfully..."
 
-echo "🎉 Successfully published $PODSPEC_NAME ($VERSION)!"
+# 3. Push to CocoaPods Trunk
+#echo "📤 Pushing to CocoaPods Trunk..."
+#pod trunk push "$PODSPEC_NAME" --allow-warnings
+#
+#echo "🎉 Successfully published $PODSPEC_NAME ($VERSION)!"

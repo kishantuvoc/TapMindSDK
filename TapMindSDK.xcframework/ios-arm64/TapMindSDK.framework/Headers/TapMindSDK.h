@@ -19,6 +19,7 @@ FOUNDATION_EXPORT const unsigned char TapMindSDKVersionString[];
 #import <TapMindSDK/TMBannerAdRequest.h>
 #import <TapMindSDK/TMBannerView.h>
 #import <TapMindSDK/TMBannerDelegate.h>
+#import <TapMindSDK/TMBannerViewReplacement.h>
 
 #import <TapMindSDK/TMInterstitialAdRequest.h>
 #import <TapMindSDK/TMInterstitialAd.h>

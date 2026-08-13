@@ -18,7 +18,11 @@
 		</data>
 		<key>Headers/TMBannerView.h</key>
 		<data>
-		0ngEA6KtQLBI8Q/fnVDwjjuEWI4=
+		YH/bcfBow9jyWlW3dRhhfQrmffE=
+		</data>
+		<key>Headers/TMBannerViewReplacement.h</key>
+		<data>
+		ff5PWFI9RYvkwXLHAz/kQHjDAnY=
 		</data>
 		<key>Headers/TMInterstitialAd.h</key>
 		<data>
@@ -74,11 +78,11 @@
 		</data>
 		<key>Headers/TapMindSDK.h</key>
 		<data>
-		9cmD49242w2yNzFv9FZBFqqxBCA=
+		7hsVFCA0cMdvr81+r65K/vg/lMA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FMCwjD9rCYSnyUbIOZd9eksGSJI=
+		iJmlCfh3djveAhYW1TnmjoVuaZY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,7 +116,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ky2z6SAJ0r6tC2FqyvfYX9/AbjUyLn39xx1Fqt78B1g=
+			SmhREkdyKhWMaBEkMwCn70llLWneQOLY3gNq1OuJVPQ=
+			</data>
+		</dict>
+		<key>Headers/TMBannerViewReplacement.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f/rAi/FEDPP1Ojcna1bSCbTTT/I1lTqUg94Qe3Ey7is=
 			</data>
 		</dict>
 		<key>Headers/TMInterstitialAd.h</key>
@@ -210,7 +221,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K4R5x8/imS/9lrQKcYK6jQ88VmDOeqlV0Hg/KHy1gI4=
+			T0WKGQkzcp1SwZYWRWie/HQkDu85Ub6i5B25uQ3STyI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
