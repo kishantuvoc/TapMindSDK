@@ -19,9 +19,7 @@ echo "🚀 Starting publication process for $PODSPEC_NAME version $VERSION..."
 echo "🏷️  Tagging version $VERSION in git..."
 git add .
 #git commit -m "Release version $VERSION"
-git commit -m "1.Add required ad parameters to Bid Request/Impression APIs.
-2.Implement multi-ad scenarios, timeout, refresh, and thread management.
-3.Enable key request/response flow logs."
+git commit -m "Added product field into the impression api"
 git tag "$VERSION"
 git push origin main
 git push origin "$VERSION"
