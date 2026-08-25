@@ -19,7 +19,7 @@ echo "🚀 Starting publication process for $PODSPEC_NAME version $VERSION..."
 echo "🏷️  Tagging version $VERSION in git..."
 git add .
 #git commit -m "Release version $VERSION"
-git commit -m "Fixed the ad refresh issue"
+git commit -m "Fixed the SPM version mismatch issue"
 git tag "$VERSION"
 git push origin main
 git push origin "$VERSION"
