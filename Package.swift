@@ -16,7 +16,7 @@ let package = Package(
         // Google Mobile Ads official Swift Package
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
-            .upToNextMajor(from: "12.14.0")
+            "12.14.0"..<"14.0.0"
         )
     ],
     targets: [
