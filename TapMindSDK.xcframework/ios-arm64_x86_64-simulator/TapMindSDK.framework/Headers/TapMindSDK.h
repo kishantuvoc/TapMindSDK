@@ -25,6 +25,10 @@ FOUNDATION_EXPORT const unsigned char TapMindSDKVersionString[];
 #import <TapMindSDK/TMInterstitialAd.h>
 #import <TapMindSDK/TMInterstitialDelegate.h>
 
+#import <TapMindSDK/TMAppOpenAdRequest.h>
+#import <TapMindSDK/TMAppOpenDelegate.h>
+#import <TapMindSDK/TMAppOpenAd.h>
+
 #import <TapMindSDK/TMRewardedAdRequest.h>
 #import <TapMindSDK/TMRewardedAd.h>
 #import <TapMindSDK/TMRewardedDelegate.h>

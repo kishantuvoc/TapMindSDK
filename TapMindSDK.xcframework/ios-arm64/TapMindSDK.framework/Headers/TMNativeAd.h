@@ -10,11 +10,16 @@
 #import <TapMindSDK/TMMediaView.h>
 
 @class ImpressionRequest;
+@class GADNativeAd;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TMNativeAd : NSObject
 /// The appId.
 @property(nonatomic, strong) ImpressionRequest *impression;
+
+/// The Google native-ad object that owns impression, click, and paid-event tracking.
+/// This is retained so mediation adapters can associate it with the rendered GADNativeAdView.
+@property(nonatomic, strong, nullable) GADNativeAd *googleNativeAd;
 //@property(nonatomic, copy) NSString *adapterId;
 //@property(nonatomic, copy) NSString *placementId;
 //@property(nonatomic, copy) NSString *partner;
